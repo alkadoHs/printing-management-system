@@ -165,10 +165,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `cheo`, `date_added`) VALUES
-(1, 'admin', 'admin123', 'adminstrator', '2023-02-09 04:27:48'),
-(2, 'kado-3', 'kado25', 'staff', '2023-02-09 15:14:42'),
-(3, 'king25', '1234', 'Adminstrator', '2023-02-10 11:04:45'),
-(4, 'kadoboy', '0000', 'staff', '2023-02-10 17:55:20');
+(1, 'admin', 'admin123', 'Adminstrator', '2023-02-09 04:27:48'),
+(2, 'staff', '1234', 'Adminstrator', '2023-02-10 11:04:45');
 
 --
 -- Indexes for dumped tables
