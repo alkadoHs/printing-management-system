@@ -1,0 +1,43 @@
+/* <!--
+     Project made by Alkado Heneliko
+     GitHub @alkado1
+     Twitter @alkadoHs
+
+     Contact: alkadosichone@gmail.com
+     --> */
+
+@font-face {
+    font-family: essam;
+    src: url(./assets/fonts/essam_font.ttf);
+}
+
+
+    /* color: #0b0647 !important;
+    background-color: #f49e21 !important; */
+
+
+*,*::after,*::before {
+    box-sizing: border-box;
+    font-family: essam;
+    transition: .5s;
+    scroll-behavior: smooth;
+
+}
+
+tr:hover {
+    background-color: #0b0647;
+    color: white;
+}
+
+div.logout {
+    background-color: #f49e21 !important;
+    padding: 10px !important;
+    margin: 8px;
+    font-size: 1.4rem !important;
+    border: transparent;
+    border-radius: 6px;
+}
+
+div.logout a {
+    color: #0b0647 !important;
+}
