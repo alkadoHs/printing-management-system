@@ -1,0 +1,20 @@
+
+
+/* color: #0b0647 !important;
+    background-color: #f49e21 !important; */
+
+    input {
+        width: 100%;
+        display: block;
+        margin-top: 5px;
+        padding: 12px 14px;
+        outline: transparent;
+        border: 2px solid #282267;
+        border-radius: 4px;
+        transition: 1s;
+        box-sizing: border-box;
+    }
+    
+    input:focus {
+        border: 2px solid #0b0647
+    }

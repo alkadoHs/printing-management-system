@@ -1,0 +1,182 @@
+body {
+    background-color: #d6d3f8;
+    padding: 0;
+    margin: 0;
+
+}
+
+p a {
+    color: white;
+}
+
+p a:hover {
+    background-color: #f49e21;
+    color: #0b0647;
+}
+
+p a:active {
+    background-color: #f49e21;
+    color: #0b0647;
+}
+
+
+
+
+
+/* color: #0b0647 !important;
+    background-color: #f49e21 !important; */
+
+
+.dashboard-container > .sidebar {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0b0647;
+    overflow-x: hidden;
+    padding-top: 16px;
+    padding-left: 20px;
+    color: white;
+}
+
+.dashboard-contents {
+    margin-left: 230px;
+    padding: 0px 10px;
+    background-color: #d6d3f8;
+}
+
+.dashboard-contents  .top-nav {
+    height: 58px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 230px;
+    background-color: #0b0647;
+    color: white;
+    padding: 0 20px;
+}
+.contents {
+    margin-top: 50px;
+    color: #0b0647;
+}
+
+.contents > h1 {
+    padding-top: 5px;
+    font-size: 2.3rem;
+    text-align: center;
+   
+}
+
+.contents .grid-container {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+
+}
+
+.contents .grid-container div {
+    flex-grow: 1;
+    background-color: #f49e21;
+    border: none;
+    height: 80px;
+    box-shadow: 5px 5px 5px #9582bb;
+    padding: 1rem;
+}
+
+.grid-container  div .description {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.table {
+    overflow-x: auto;
+}
+
+table {
+    margin-top: 120px;
+    background-color: white;
+    box-shadow: 5px 5px 5px #9582bb;
+    width: 100%;
+    border: 2px solid #0b0647;
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 2px solid #0b0647;
+    overflow-x: auto;
+    max-width: 150px;
+}
+
+th {
+    background-color:  #f49e21;
+}
+
+table tr:hover {
+    background-color: #0b0647;
+    color: white;
+}
+
+.navicon {
+    display: inline-block;
+    margin-left: 1px;
+    height: 15px;
+    width: 15px;
+    background-color: #f49e21;
+    border: none;
+    border-radius: 50px;
+    animation-name: changeBackground;
+}
+
+.company-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.company-profile img {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #f49e21;
+    border-radius: 50%;
+}
+
+.company-profile .company-name {
+    font-size: large;
+    font-weight: bold; 
+    border-top: 2px solid #f49e21;
+    border-right: 2px solid #f49e21;
+    border-bottom: 2px solid #f49e21;
+    border-left: none;
+    border-top-right-radius: 30%;
+    padding: 10px;
+}
+
+.toggle div {
+    background-color: #f49e21;
+    height: 4px;
+    width: 15px;
+    margin: 3px 0;
+}
+
+.toggle {
+    border-right: 2px solid rgb(6, 245, 6);
+    padding: 5px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+@keyframes changeBackground {
+    
+}
+

@@ -1,0 +1,8 @@
+@import url(./odampya.css);
+
+.form-grid > form {
+    width: 100%;
+    display: grid;
+    column-gap: 1.5rem;
+    grid-template-columns: repeat(3, 25%);
+}

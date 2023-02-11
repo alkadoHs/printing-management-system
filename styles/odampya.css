@@ -1,0 +1,72 @@
+
+
+/* color: #0b0647 !important;
+    background-color: #f49e21 !important; */
+.form-grid {
+    margin-top: 20px;
+}
+
+.form-grid > form {
+    width: 100%;
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: repeat(2, 50%);
+}
+
+form  
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+ }
+
+ input, textarea, select {
+    width: 80%;
+    display: block;
+    margin-top: 5px;
+    padding: 12px 14px;
+    outline: transparent;
+    border: 2px solid #282267;
+    border-radius: 4px;
+    transition: 1s;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 2px solid #0b0647
+}
+
+
+.submitBtn {
+    display: inline-block;
+    grid-column: span 2;
+    width: 100%;
+}
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #f49e21 0%, #f2a735  51%, #f49e21 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #0b0647;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-size: 1.3rem;
+    margin-left: 30%;
+    width: 50%;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
